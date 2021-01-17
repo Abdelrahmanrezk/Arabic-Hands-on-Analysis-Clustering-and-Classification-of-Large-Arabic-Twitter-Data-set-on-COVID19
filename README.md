@@ -49,6 +49,14 @@ We have used three machine learning models to classify the data setwhich are ran
 
 <img src="images/image001.png" width="400" height="400"/>
 
+And we can see the machine learning models and weights from here:
+
+[Machine Learning](https://github.com/Abdelrahmanrezk/Arabic-Hands-on-Analysis-Clustering-and-Classification-of-Large-Arabic-Twitter-Data-set-on-COVID19/tree/main/ml_models)
+
 ### CONCLUSION AND  FUTURE WORK
 
 In this work we introduce our cleaning, analysis,Classification and clustering on a large Arabic data set. wenoticed that large percentage of the data set is not related to COVID 19. To prove your conclusion using machine learning models we made pre-processing to the data set. We did someanalysis to the tweets like frequency count where we countthe frequency of repetition of each word in the tweets. Usingthis analysis we were able to get some insights from the dataset. We have manually annotated 15000 tweets randomly fromthe data set and annotated them highly related to COVID1 tweets and non-related to COVID19 tweets to test our hypo-sisthat  many  tweets  are  not  related  to  COVID19  we  used  threemachine  learning  models  random  forest,  SVC  and  logisticregression.  We  got  working  models  with  good  results  thisshows  more  than  55%  of  the  data  set  is  not  related  toCOVID19  but  only  uses  similar  worlds  that  is  related  toCOVID19.  We  also  applied  a  clustering  technique  to  verifyour  hypo-sis  using  k-means  classification  we  reached  70%accuracy  which  is  affected  by  similar  words  but  prove  ourhypo-sis  that  their  is  a  large  portion  of  the  data  set  is  nothighly related to COVID19 and additional pre-processing stepis  required  to  work  with  such  data  sets  that  relay  on  relatedwords to collect data set. Future work will include sentimentanalysis for the highly related tweets.
+
+## Here are helpful reports through all the steps we are passed through in more details and explanation:
+
+[All Reports](https://github.com/Abdelrahmanrezk/Arabic-Hands-on-Analysis-Clustering-and-Classification-of-Large-Arabic-Twitter-Data-set-on-COVID19/tree/main/reports/pdf%20reports)
