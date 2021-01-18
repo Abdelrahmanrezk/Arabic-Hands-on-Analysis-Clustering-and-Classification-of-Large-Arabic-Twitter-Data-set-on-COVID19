@@ -49,7 +49,29 @@ We have used three machine learning models to classify the data setwhich are ran
 
 <img src="images/image001.png" width="400" height="400"/>
 
-And we can see the machine learning models and weights from here:
+
+#### Models Result
+
+Model | Features Engineering  | On Train | On Test | 
+--- | --- | --- | --- |
+Logistic Regression | Tf-Idf  | 93.6% | 91.8 | 
+--- | --- | --- | --- |
+Logistic Regression | word2vec | 90.1% | 86.2% | 
+--- | --- | --- | --- |
+Random Forest Classifier | Tf-Idf  | 99.7% | 92.7% | 
+--- | --- | --- | --- |
+Random Forest Classifier | word2vec | 99.9% | 85.2% | 
+--- | --- | --- | --- |
+SVC | Tf-Idf | 98.6% | 92.7% | 
+--- | --- | --- | --- |
+SVC  | word2vec | 89% | 84.9% | 
+--- | --- | --- | --- |
+K-Means  | Tf-Idf | 68.8% | 67.3% | 
+K-Means  | word2vec | 46% | 46% | 
+
+
+
+**And we can see the machine learning models and weights from here:**
 
 [Machine Learning](https://github.com/Abdelrahmanrezk/Arabic-Hands-on-Analysis-Clustering-and-Classification-of-Large-Arabic-Twitter-Data-set-on-COVID19/tree/main/ml_models)
 
