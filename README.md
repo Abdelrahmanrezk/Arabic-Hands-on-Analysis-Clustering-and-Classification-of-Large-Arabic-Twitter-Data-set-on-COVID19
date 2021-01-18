@@ -55,17 +55,11 @@ We have used three machine learning models to classify the data setwhich are ran
 Model | Features Engineering  | On Train | On Test | 
 --- | --- | --- | --- |
 Logistic Regression | Tf-Idf  | 93.6% | 91.8 | 
---- | --- | --- | --- |
 Logistic Regression | word2vec | 90.1% | 86.2% | 
---- | --- | --- | --- |
 Random Forest Classifier | Tf-Idf  | 99.7% | 92.7% | 
---- | --- | --- | --- |
 Random Forest Classifier | word2vec | 99.9% | 85.2% | 
---- | --- | --- | --- |
 SVC | Tf-Idf | 98.6% | 92.7% | 
---- | --- | --- | --- |
 SVC  | word2vec | 89% | 84.9% | 
---- | --- | --- | --- |
 K-Means  | Tf-Idf | 68.8% | 67.3% | 
 K-Means  | word2vec | 46% | 46% | 
 
